@@ -18,6 +18,14 @@ export default new Router({
       }
     },
     {
+      path: '/demo',
+      component: resolve => require(['../components/page/Index.vue'], resolve),
+      meta: {
+        title: 'demo',
+        needLogin: false
+      }
+    },
+    {
       path: '/login',
       component: resolve => require(['../components/page/Index.vue'], resolve),
       meta: {
