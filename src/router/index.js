@@ -19,9 +19,17 @@ export default new Router({
     },
     {
       path: '/demo',
-      component: resolve => require(['../components/page/Index.vue'], resolve),
+      component: resolve => require(['../components/page/Demo.vue'], resolve),
       meta: {
         title: 'demo',
+        needLogin: false
+      }
+    },
+    {
+      path: '/live2d',
+      component: resolve => require(['../components/page/Live2D.vue'], resolve),
+      meta: {
+        title: 'live2d',
         needLogin: false
       }
     },

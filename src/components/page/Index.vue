@@ -5,40 +5,15 @@
     <p align="center">联系QQ：508821881@qq.com</p>
     <p align="center">github仓库：https://github.com/Yunlingfly</p>
     <p align="center">码云仓库：https://gitee.com/yunlingfly</p>
+    <live2-d></live2-d>
   </div>
 </template>
 
 <script>
+import live2D from "./Live2D.vue"
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+  components:{
+    live2D
   }
 }
-</script>
-<script>
-    L2Dwidget.init({
-        "model": {
-            // https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json
-            jsonPath: "https://unpkg.com/live2d-widget-model-haru@1.0.5/02/assets/haru02.model.json",
-            "scale": 1
-        },
-        "display": {
-            "position": "right",
-            "width": 150,
-            "height": 300,
-            "hOffset": 0,
-            "vOffset": -20
-        },
-        "mobile": {
-            "show": true,
-            "scale": 0.5
-        },
-        "react": {
-            "opacityDefault": 0.7,
-            "opacityOnHover": 0.2
-        }
-    });
 </script>

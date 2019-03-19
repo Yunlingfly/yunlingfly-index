@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    this is a live2d demo
   </div>
 </template>
 <script>
