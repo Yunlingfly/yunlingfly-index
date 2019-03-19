@@ -15,7 +15,7 @@
 export default {
   data() {
     return {
-      apiUrl: "https://www.yunlingfly.cn/live2d/demo.html"
+      apiUrl: "//www.yunlingfly.cn/live2d/demo.html"
     };
   }
 };
